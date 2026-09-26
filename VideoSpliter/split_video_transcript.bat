@@ -38,7 +38,7 @@ if errorlevel 1 (
 echo Starting...
 echo.
 
-python "%~dp0split_video_transcript.py"
+python "%~dp0video_srt_splitter_ui.py"
 
 if errorlevel 1 (
     echo.

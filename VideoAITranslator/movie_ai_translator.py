@@ -563,6 +563,12 @@ class MovieTranslationApp(QMainWindow):
     # =========================================================
 
     def format_timestamp(
+            self,
+            value
+        ):
+        return value
+
+    def format_timestamp2(
         self,
         value
     ):
